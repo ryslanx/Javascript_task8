@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    .user {
+        padding: 20px;
+        border: 2px solid dodgerblue;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+</style>
+<body>
+<form action="#" name="form">
+    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+</form>
+
+
+<form action="#" name="formFeatures">
+    <textarea name="formText" cols="30" rows="10"></textarea>
+    <input type="text" name="text">
+    <input type="checkbox" name="formCheck">
+    <select name="select-1">
+        <option value="small-orange">Мандарин</option>
+        <option value="orange">Апельсин</option>
+        <option value="ananas">Ананас</option>
+    </select>
+    <select name="select-2" id="">
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMV</option>
+        <option value="mercedes">Mercedes</option>
+    </select>
+    <input type="radio" name="radio">
+</form>
+
+<form action="#" name="third-form">
+    <textarea name="textarea-3" id="" cols="30" rows="10"></textarea>
+</form>
+<button type="submit" id="save">Save</button>
+
+<h2>Add user to the book</h2>
+<form action="#" name="writing-book">
+    <input placeholder="ФИО" type="text" name="name">
+    <input type="text" name="number" placeholder="Please enter your number">
+    <input type="text" name="email" placeholder="Please enter your email">
+    <input type="text" name="company" placeholder="Please enter your company">
+    <input type="text" name="department" placeholder="Please enter your department">
+    <input type="date" id="start" name="birthday"
+           value="2018-07-22"
+           min="1920-01-01" max="2020-12-31">
+</form>
+<button type="submit" id="add-user">Add user</button>
+<button id="show-users">Show users</button>
+
+<div class="users">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
